@@ -15,6 +15,22 @@ common requirements.
 
 ## Gradle
 
+Step 1. Add this in your root build.gradle at the end of repositories:
+
+    allprojects {
+        repositories {
+            ...
+            maven { url 'https://www.jitpack.io' }
+        }
+    }
+
+Step 2. Add dependency
+
+    dependencies {
+        ...
+        implementation 'com.github.homanad:FlexImageView:1.0.0'
+    }
+
 ## Usage
 
 ### A circular image view
