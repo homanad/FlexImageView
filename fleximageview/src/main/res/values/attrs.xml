@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FlexImageView">
+        <attr name="border_color" format="color" />
+        <attr name="border_width" format="dimension" />
+        <attr name="border_dash_width" format="dimension" />
+        <attr name="border_dash_gap" format="dimension" />
+        <attr name="corner_radius" format="dimension" />
+        <attr name="corner_topLeft_radius" format="dimension" />
+        <attr name="corner_topRight_radius" format="dimension" />
+        <attr name="corner_bottomRight_radius" format="dimension" />
+        <attr name="corner_bottomLeft_radius" format="dimension" />
+        <attr name="color_filter" format="color" />
+        <attr name="gray_image" format="boolean" />
+    </declare-styleable>
+</resources>
